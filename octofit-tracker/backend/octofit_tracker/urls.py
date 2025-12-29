@@ -1,3 +1,4 @@
+import os
 """octofit_tracker URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -15,6 +16,8 @@ Including another URLconf
 """
 codespace_name = os.environ.get('CODESPACE_NAME')
 
+
+import os
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
